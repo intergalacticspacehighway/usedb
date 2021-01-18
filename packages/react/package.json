@@ -1,6 +1,6 @@
 {
   "name": "@usedb-test/react",
-  "version": "0.0.1-alpha.52+20a32f5",
+  "version": "0.0.1-alpha.53+0c0b82a",
   "description": "Official React library for @usedb-test",
   "author": "GeekyAnts",
   "repository": {
@@ -27,11 +27,11 @@
     "react-dom": "^16.8.0"
   },
   "dependencies": {
-    "@usedb-test/core": "^0.0.1-alpha.52+20a32f5",
+    "@usedb-test/core": "^0.0.1-alpha.53+0c0b82a",
     "tslib": "^2.0.0"
   },
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "20a32f5fa9157ce791c9ee4acaabb7100962c899"
+  "gitHead": "0c0b82ad769e542b94db19d0c04e0fbc19b653cf"
 }
