@@ -1,4 +1,4 @@
-import { QueryData, Connection } from '@usedb/core';
+import { QueryData, Connection } from '@usedb-test/core';
 import { refetchCallbacks } from '../utils';
 import { UseDBReactContext } from '../context';
 import { useCallback, useContext, useEffect, useReducer, useRef } from 'react';

@@ -1,5 +1,5 @@
 import React, { ReactChildren, ReactChild } from 'react';
-import { Connection } from '@usedb/core';
+import { Connection } from '@usedb-test/core';
 
 export const UseDBReactContext: any = /*#__PURE__*/ React.createContext(null);
 

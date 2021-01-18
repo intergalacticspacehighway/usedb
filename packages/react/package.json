@@ -1,7 +1,7 @@
 {
-  "name": "@usedb/react",
-  "version": "0.0.1",
-  "description": "Official React library for @usedb",
+  "name": "@usedb-test/react",
+  "version": "0.0.1-alpha.52+20a32f5",
+  "description": "Official React library for @usedb-test",
   "author": "GeekyAnts",
   "repository": {
     "type": "git",
@@ -27,10 +27,11 @@
     "react-dom": "^16.8.0"
   },
   "dependencies": {
-    "@usedb/core": "^0.0.1",
+    "@usedb-test/core": "^0.0.1-alpha.52+20a32f5",
     "tslib": "^2.0.0"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "20a32f5fa9157ce791c9ee4acaabb7100962c899"
 }

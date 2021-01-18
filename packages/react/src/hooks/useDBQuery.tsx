@@ -1,5 +1,5 @@
 import { useEffect, useContext, useReducer, useCallback } from 'react';
-import { Connection, QueryData } from '@usedb/core';
+import { Connection, QueryData } from '@usedb-test/core';
 import { UseDBReactContext } from '../context';
 import { refetchCallbacks } from '../utils';
 import { fetchReducer } from './reducers';

@@ -1,4 +1,4 @@
-import { types, createDB } from '@usedb/core';
+import { types, createDB } from '@usedb-test/core';
 const POST_COLLECTION_NAME = 'Post';
 
 const Author = types.model('Author', {

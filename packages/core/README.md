@@ -1,1 +1,1 @@
-# @usedb/core
+# @usedb-test/core

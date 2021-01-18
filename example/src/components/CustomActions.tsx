@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { db, QueryData, RuntimeReference } from '@usedb-test/core';
+import { db, QueryData, RuntimeReference } from '@usedb-test-test/core';
 import { refetchQueries, useDB } from 'usedb-react';
 import { observer } from 'mobx-react-lite';
 import { useEffect } from 'react';

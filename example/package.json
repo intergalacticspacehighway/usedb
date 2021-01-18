@@ -1,5 +1,5 @@
 {
-  "name": "@usedb/example",
+  "name": "@usedb-test/example",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -12,8 +12,8 @@
     "react-app-polyfill": "^1.0.0"
   },
   "alias": {
-    "@usedb/react": "../packages/react",
-    "@usedb/core": "../packages/core",
+    "@usedb-test/react": "../packages/react",
+    "@usedb-test/core": "../packages/core",
     "react": "../node_modules/react",
     "react-dom": "../node_modules/react-dom/profiling",
     "scheduler/tracing": "../node_modules/scheduler/tracing-profiling"

@@ -1,5 +1,5 @@
 import { useContext, useReducer } from 'react';
-import { Connection, QueryData } from '@usedb/core';
+import { Connection, QueryData } from '@usedb-test/core';
 import { UseDBReactContext } from '../context';
 import { fetchReducer } from './reducers';
 // import { refetchQueries } from '../utils';

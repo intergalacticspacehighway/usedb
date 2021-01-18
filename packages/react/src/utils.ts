@@ -1,4 +1,4 @@
-import { QueryData } from '@usedb/core';
+import { QueryData } from '@usedb-test/core';
 
 const refetchMap = new Map<any, any>();
 type ICallback = () => any;
