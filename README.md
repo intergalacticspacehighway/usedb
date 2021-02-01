@@ -2,14 +2,14 @@
 
 ## Usage
 
-This monorepo is setup for a dummy `@usedb/` NPM organization. There are 2 packages by default:
+This monorepo is setup for a dummy `@react-native-aria/` NPM organization. There are 2 packages by default:
 
-- `@usedb/react` - A placholder React component
-- `@usedb/utils` - A utils packages
+- `@react-native-aria/react` - A placholder React component
+- `@react-native-aria/utils` - A utils packages
 
 Unlike other TSDX templates, the developer experience for this template is currently a bit more manual.
 
-Your first order of business will be to search and replace `@usedb` for the npm organization of your own.
+Your first order of business will be to search and replace `@react-native-aria` for the npm organization of your own.
 
 After that you can install all the dependencies in the root directory. Since the monorepo uses Lerna and Yarn Workspaces, npm CLI is not supported (only yarn).
 

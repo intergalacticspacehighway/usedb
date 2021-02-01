@@ -1,0 +1,35 @@
+{
+    "name": "@react-native-aria/utils",
+    "version": "0.1.16",
+    "description": "Official library for @react-native-aria",
+    "author": "GeekyAnts",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mono/mono.git",
+      "directory": "packages/utils"
+    },
+    "scripts": {
+      "start": "tsdx watch --tsconfig tsconfig.build.json --verbose --noClean",
+      "build": "tsdx build --tsconfig tsconfig.build.json",
+      "test": "tsdx test",
+      "lint": "tsdx lint",
+      "prepublish": "npm run build",
+      "pack": "npm run pack"
+    },
+    "main": "dist/index.js",
+    "module": "dist/react.esm.js",
+    "typings": "dist/index.d.ts",
+    "files": [
+      "README.md",
+      "dist"
+    ],
+    "peerDependencies": {},
+    "dependencies": {
+    },
+    "devDependencies": {
+    },
+    "publishConfig": {
+      "access": "public"
+    }
+  }
+  

@@ -7,8 +7,7 @@
     "typeRoots": ["./node_modules/@types", "./types"],
     "target": "ES5",
     "paths": {
-      "@usedb/utils": ["packages/utils/src"],
-      "@usedb/react": ["packages/react/src"],
+      "@react-native-aria/utils": ["packages/utils/src"],
       "$test/*": ["test/*"]
     }
   }

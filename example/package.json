@@ -1,34 +1,40 @@
 {
-  "name": "@usedb/example",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "name": "react-native-aria-example",
+  "description": "Example app for react-native-aria",
+  "version": "0.0.1",
+  "private": true,
+  "main": "index",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "start": "expo start",
+    "test": "jest",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "@types/react": "^16.9.43",
-    "@types/react-dom": "^16.9.8",
-    "lodash.pick": "^4.4.0",
-    "mobx-react": "^7.0.5",
-    "mobx-react-lite": "^3.1.6",
-    "react": "^16.13.1",
-    "react-app-polyfill": "^1.0.0",
-    "react-dom": "^16.13.1",
-    "react-router-dom": "^5.2.0"
-  },
-  "alias": {
-    "@usedb/react": "../packages/react",
-    "@usedb/core": "../packages/core",
-    "react": "../node_modules/react",
-    "react-dom": "../node_modules/react-dom/profiling",
-    "scheduler/tracing": "../node_modules/scheduler/tracing-profiling"
+    "@react-native-async-storage/async-storage": "^1.13.4",
+    "@react-native-community/hooks": "^2.6.0",
+    "expo": "^40.0.0",
+    "expo-splash-screen": "~0.8.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "0.63.4",
+    "react-native-unimodules": "~0.12.0",
+    "react-native-web": "~0.14.9"
   },
   "devDependencies": {
-    "@types/react": "^16.9.11",
-    "@types/react-dom": "^16.8.4",
-    "parcel": "^1.12.3",
-    "typescript": "^3.4.5"
+    "@babel/core": "~7.12.10",
+    "@babel/runtime": "^7.12.5",
+    "@storybook/addon-actions": "^6.1.11",
+    "@storybook/addon-essentials": "^6.1.11",
+    "@storybook/addon-links": "^6.1.11",
+    "@storybook/react": "^6.1.11",
+    "@storybook/react-native": "^5.3.23",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "babel-preset-expo": "8.3.0",
+    "expo-cli": "^4.0.13"
   }
 }
