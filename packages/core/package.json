@@ -1,6 +1,6 @@
 {
     "name": "@usedb/core",
-    "version": "0.1.16",
+    "version": "0.2.0",
     "description": "Official library for @usedb",
     "author": "GeekyAnts",
     "repository": {
@@ -14,6 +14,7 @@
       "test": "tsdx test",
       "lint": "tsdx lint",
       "prepublish": "npm run build",
+      "prepare": "npm run prepublish",
       "pack": "npm run pack"
     },
     "main": "dist/index.js",
