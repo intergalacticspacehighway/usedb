@@ -1,6 +1,6 @@
 {
   "name": "@usedb/react",
-  "version": "0.1.8",
+  "version": "0.2.0",
   "description": "Official React library for @usedb",
   "author": "GeekyAnts",
   "repository": {
@@ -13,6 +13,7 @@
     "build": "tsdx build --tsconfig tsconfig.build.json",
     "test": "tsdx test",
     "lint": "tsdx lint",
+    "prepare": "npm run prepublish",
     "prepublish": "npm run build",
     "pack": "npm run pack"
   },
@@ -28,7 +29,7 @@
     "react-dom": "^16.8.0"
   },
   "dependencies": {
-    "@usedb/core": "0.1.16",
+    "@usedb/core": "0.2.0",
     "tslib": "^2.0.0"
   },
   "devDependencies": {
